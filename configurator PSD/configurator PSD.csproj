@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>configurator_PSD</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>images.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="images.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Reo.Core.DataImport.ClosedXml.Report" Version="6.0.30411" />
+  </ItemGroup>
+
+</Project>
